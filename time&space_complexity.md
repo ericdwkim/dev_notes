@@ -1,7 +1,7 @@
 # Time & Space Complexity - Concepts & Terminology
 
 ## Memoization
-- 
+
 - an optimization technique
 - caching system to trade space (memory) for time (faster execution) for instances where a given input and output are deterministic
 - typically used for expensive functions, such as recursive functions
