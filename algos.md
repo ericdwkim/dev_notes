@@ -44,4 +44,6 @@ class Solution(object):
 ```
 As the number of nodes `n` in the linked list grows, the longer it will take for this algo to finish executing. 
 
-In a non-cyclic linked list, the fast pointer would have a time complexity of `O(n/2)`; however, this would affect the overall algorithm's time complexity and remain `O(n)` due to the slow pointer's linear traversal through the list. **Recall that constants are _disregarded_ in Big Notation; we're more focused on the _upper bound_ of time complexity.**
+In a non-cyclic linked list, the fast pointer would induce a time complexity of `O(n/2)`; however, this wouldn't affect the overall algorithm's time complexity, thus remain `O(n)` due to the slow pointer's linear traversal through the list. **Recall that constants are _disregarded_ in Big Notation; we're more focused on the _upper bound_ of time complexity.**
+
+As for the space complexity, the space used does not scale with `n`; only a fixed number of pointers (variables) are used regardless of the list size, thus remains constant.
