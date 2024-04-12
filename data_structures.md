@@ -20,3 +20,8 @@
 **Variable Node Capacity:** B-Trees are parameterized by the order (or degree) which defines the maximum and minimum number of keys a node can hold. This adaptability makes B-Trees very efficient in terms of balancing the tree and optimizing storage.
 
 **Efficient Disk Accesses:** B-Trees are designed to minimize disk accesses, making them ideal for storage systems where data access time is predominantly determined by disk seek time. Their structure is optimized for systems that read and write large blocks of data.
+
+## Dynamic vs Static Arrays (or Vectors)
+- static = fixed size arrays
+- dynamic = resizable arrays
+  - see **amoritzed time complexity**
